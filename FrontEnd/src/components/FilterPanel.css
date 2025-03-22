@@ -1,0 +1,103 @@
+.filter-container {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: #0f0f0f;
+    border-radius: 12px;
+  }
+  
+  .filter-container h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+  }
+  
+  .filter-container p {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    color: #aaa;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    background: #1e1e1e;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    display: block;
+    margin: 15px 0 5px;
+    text-align: left;
+  }
+  
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    background: #1e1e1e;
+    color: white;
+    border: none;
+  }
+  
+  /* Range Slider */
+  .range-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .range-container input[type="range"] {
+    width: 100%;
+    margin: 5px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .range-container input[type="range"]::-moz-range-track {
+    background: #444;
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  .range-container input[type="range"]::-ms-track {
+    background: #444;
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  .range-container input[type="range"]::-webkit-slider-runnable-track {
+    background: #444;
+    height: 4px;
+    border-radius: 2px;
+  }
+  
+  .range-container input[type="range"]::-webkit-slider-thumb,
+  .range-container input[type="range"]::-moz-range-thumb,
+  .range-container input[type="range"]::-ms-thumb {
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid #444;
+    cursor: pointer;
+  }
+  
+  .range-labels {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #aaa;
+  }
+  
