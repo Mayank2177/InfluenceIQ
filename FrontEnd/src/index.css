@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body, html{
+    background-color: #000000;
+}
+
+.container{
+    width: 100%;
+    background-color: #000000;
+}
+
+/* NAV START  */
+
+.nav{
+    width: 100%;
+    padding: 10px;
+    background-color: #565656;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-links {
+    width: 30%;
+    font-size: 1.3rem;
+}
+
+.nav .nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.nav .nav-links ul li{
+    list-style: none;
+}
+
+
+.nav .nav-links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links .nav-btn{
+    padding: 7px 15px;
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-links .nav-btn:hover{
+    background-color: #2d2d2da0;
+}
+
+/* NAV END */
+
+/* SEARCHBAR CONTAINER START  */
+
+.search-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.search-c{
+    width: 70%;
+    height: 600px;
+    background-image: url(./assets/gradient-bg.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.search-c h1{
+    font-size: 5rem;
+}
+
+.search-c h4{
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.search-c .searchbar{
+    width: 50%;
+    height: 100px;
+    padding-top: 30px;
+    position: relative;
+}
+
+.searchbar form input{
+    width: 100%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 70px;
+    padding-right: 200px;
+}
+
+.searchbar form button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(90, 90, 231);
+    border-radius: 10px;
+    border: none;
+    font-size: 1.3rem;
+
+    position: absolute;
+    right: 9px;
+    bottom: 12px;
+}
+
+.searchbar form img{
+    width: 40px;
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+}
+
+/* SEARCHBAR CONTAINER END  */
+
+/* INFLUENCE CONTENT START  */
+
+.influence-content{
+    width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    color: #fff
+}
+
+.influence-content h1{
+    font-size: 3rem;
+}
+
+.influence-content h4{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.influence-content button{
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(90, 90, 231);
+    font-size: 1.2rem;
+}
+
+/* INFLUENCE CONTENT END  */
+
+/* FEATURE START  */
+
+.feature{
+    width: 100%;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feature h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.cards{
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.f-cards{
+    width: 35%;
+    margin: 20px;
+    height: 250px;
+    background-color: #161616;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.f-cards h1{
+    font-size: 3rem;
+}
+
+.f-cards p{
+    font-size: 1.4rem;
+    font-weight: 100;
+    width: 80%;
+}
+
+/* REATURE END  */
+
+/* WORKING PAGE START */
+
+.workings{
+    width: 100%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.workings h1{
+    font-size: 4rem;
+    color: #fff;
+}
+
+.w-card{
+    gap: 30px;
+}
+
+.w-cards{
+    width: 70%;
+    padding: 20px;
+    background-color: #161616;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.w-cards h1{
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.w-cards p{
+    font-size: 1.4rem;
+    width: 70%;
+}
+
+/* WORKING PAGE END  */
+
+/* EXPLANATION PAGE START  */
+
+.explanation{
+    width: 100%;
+    margin-bottom: 40px;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.explanation h1{
+    font-size: 4rem;
+}
+
+.explanation p{
+    font-size: 1.7rem;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+
+.explanation-content{
+    width: 80%;
+    padding: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-image: url(./assets/dark-bg.avif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.explanation-content h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    padding-bottom: 60px;
+}
+
+.explanation-content ul {
+    font-size: 1.5rem;
+}
+
+.explanation-content ul li:not(:last-child){
+    padding-bottom: 20px;
+}
+
+.explanation-content ul li span{
+    font-weight: 900;
+}
+
+.explanation-content button{
+    width: 900px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.e-btn > *{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn-invisiable{
+    position: absolute;
+    width: 800px;
+    top: -100%;
+    left: -100%;
+}
+
+.e-btn:hover .btn-visiable{
+    transform: translateY(150%);
+}
+
+.e-btn:hover .btn-invisiable{
+    top: 20%;
+    left: 5%;
+}
+
+/* EXPLANATION PAGE END  */
+
+/* FEEDBACK SECTION START  */
+
+:root {
+    --primary-color: #ffffff;
+    --primary-color-dark: #b0b0b0;
+    --text-dark: #bababa;
+    --white: #ffffff;
+}
+
+.feedback {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    color: #fff;
+}
+  
+.container__left h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+  
+.container__left p {
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+  
+.container__left button {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(90, 90, 231);
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+}
+  
+.container__right {
+    display: grid;
+    gap: 2rem;
+}
+  
+.card {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background-image: url(./assets/dark-bg.avif);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+  
+.card img {
+    max-width: 75px;
+    border-radius: 100%;
+}
+  
+.card__content {
+    display: flex;
+    gap: 1rem;
+}
+  
+.card__content span i {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+  
+.card__details p {
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+  
+.card__details h4 {
+    text-align: right;
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* FEEDBACK END  */
+
+/* FOOTER START  */
+
+footer{
+    background-color: #000000;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
