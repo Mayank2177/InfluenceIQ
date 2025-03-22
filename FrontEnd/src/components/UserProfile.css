@@ -1,0 +1,285 @@
+.profile-container{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-nav{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.user-details{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-details img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user-details h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.user-details button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: #283039;
+    color: white;
+    border: none;
+}
+
+/* Main Container */
+.credibility-container {
+    width: 100%;
+    max-width: 60%;
+    text-align: left;
+}
+
+/* Title */
+.title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+/* Score Cards */
+.score-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.score-card {
+    flex: 1;
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #2d2d2d;
+}
+
+.score-card h1 {
+    font-size: 2.1rem;
+    margin: 0;
+}
+
+.score-card p {
+    font-size: 1.3rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Influence Trend */
+.influence-card {
+    background: #121212;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #2d2d2d;
+}
+
+.influence-info h3 {
+    margin: 0;
+    font-size: 1.9rem;
+}
+
+.influence-info p {
+    margin: 5px 0;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+/* View Report Button */
+.view-report-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.view-report-btn:hover {
+    background: #0056b3;
+}
+
+/* GRAPH START  */
+
+.graph{
+    width: 60%;
+    padding-bottom: 40px;
+}
+
+.graph h1:first-child{
+    font-size: 2rem;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+/* Stats Container */
+.stats-container {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* Stat Cards */
+.stat-card {
+    flex: 1;
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stat-card p {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+
+.stat-card h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Container */
+.demographics-container {
+    width: 100%;
+    max-width: 60%;
+    padding-bottom: 20px;
+}
+
+/* Title */
+.demographics-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Grid Layout */
+.demographics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    border-top: 1px solid #2d2d2d;
+    padding-top: 15px;
+}
+
+/* Individual Items */
+.demographics-item {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.label {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+/* Values */
+.value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+/* General Container */
+.content-analysis-container {
+    width: 100%;
+    max-width: 60%;
+    padding-top: 40px;
+    color: white;
+}
+
+/* Title */
+.content-analysis-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Tag List */
+.tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Tags */
+.tag {
+    background-color: #222;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.tag:hover {
+    background-color: #333;
+}
+
+/* Description */
+.content-description {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    color: #b0b0b0;
+    padding-bottom: 60px;
+}
+
+.tips-container {
+    background-color: #111; /* Dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 60%;
+  }
+  
+  .tips-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .tips-text {
+    font-size: 1.4rem;
+    color: #ababab;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
+  
