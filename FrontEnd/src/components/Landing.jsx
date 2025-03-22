@@ -6,33 +6,13 @@ import pic1 from "../assets/pic-1.jpg"
 import pic2 from "../assets/pic-2.jpeg"
 import pic3 from "../assets/pic-3.jpg"
 
+import Nav from "./Nav";
+
 const Landing = () => {
     return(
         <>
             <div className="container">
-                <div className="nav">
-                    <div className="nav-logo">
-                        <h1>LOGO</h1>
-                    </div>
-                    <div className="nav-links">
-                        <ul>
-                            <li>
-                                <a href="#">Ranking</a>
-                            </li>
-                            <li>
-                                <a href="#">About</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <div className="nav-btn">
-                                    <h4>sign in</h4>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                <Nav />
                 <div className="search-container">
                     <div className="search-c">
                         <h1>Discover the most influential figures </h1>
@@ -180,7 +160,7 @@ const Landing = () => {
                     <div class="footerBottom">
                         <p>Copyright &copy;2023; Designed by <span class="designer">ERROR 404</span></p>
                     </div>
-            </footer>
+                </footer>
             </div>
         </>
     )
