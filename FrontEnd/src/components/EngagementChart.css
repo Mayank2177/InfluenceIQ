@@ -1,0 +1,28 @@
+.chart-container {
+    background: #0f0f0f;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+    text-align: left;
+  }
+  
+  .chart-container h3 {
+    font-size: 16px;
+    color: #aaa;
+  }
+  
+  .chart-container h1 {
+    font-size: 28px;
+    margin: 5px 0;
+  }
+  
+  .chart-container p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .positive {
+    color: #1dd1a1;
+    font-weight: bold;
+  }
+  
