@@ -7,6 +7,7 @@ import pic2 from "../assets/pic-2.jpeg"
 import pic3 from "../assets/pic-3.jpg"
 
 import Nav from "./Nav";
+import FeedbackForm from "./Feedback";
 
 const Landing = () => {
     return(
@@ -89,53 +90,7 @@ const Landing = () => {
                         </button>
                     </div>
                 </div>
-                <div class="feedback">
-                    <div class="container__left">
-                        <h1>See What Our Users Think About Us!</h1>
-                        <p>
-                        Over 200 users from diverse backgrounds trust us to redefine influence ranking with fairness and accuracy.
-                        </p>
-                        <p>
-                        We've helped individuals and brands discover true impact, filter out fake fame, and make data-driven decisions with our platform!
-                        </p>
-                        <button>Read our success stories</button>
-                    </div>
-                    <div class="container__right">
-                    <div class="card">
-                        <img src={pic1} alt="user" />
-                        <div class="card__content">
-                        <div class="card__details">
-                            <p>
-                            We rely on InfluenceIQ to identify long-term brand ambassadors.
-                            </p>
-                            <h4>- Marnus Stephen</h4>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src={pic2} alt="user" />
-                        <div class="card__content">
-                        <div class="card__details">
-                            <p>
-                            InfluenceIQ helped us find the most credible speakers for our event.
-                            </p>
-                            <h4>- John D.</h4>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src={pic3} alt="user" />
-                        <div class="card__content">
-                        <div class="card__details">
-                            <p>
-                            We rely on InfluenceIQ to identify long-term brand ambassadors.
-                            </p>
-                            <h4>- Sophia M.</h4>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+                <FeedbackForm />
                 <footer>
                     <div class="footerContainer">
                         <div class="socialIcons">

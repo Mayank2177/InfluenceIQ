@@ -123,15 +123,15 @@ const Profile = () =>{
                     <h2 className="tips-title">Tips & Tricks 🤖 </h2>
                     <p className="tips-text">
                     Maximize your experience with <span className="highlight">CrediRank</span>. 
-        Get the most reliable insights on public figures. The platform offers detailed 
-        stats, in-depth analysis, and clear visualizations. Discover top performers 
-        in any category and get AI-driven recommendations for efficient platform utilization. 
-        <br /><br />
-        Stay ahead with real-time updates and comprehensive reports. Utilize advanced filters 
-        to refine your search and get precise results. Whether you're an analyst, researcher, 
-        or enthusiast, CrediRank provides the tools you need to make data-driven decisions. 
-        Enhance your experience by exploring trending topics, identifying key influencers, 
-        and leveraging AI-powered insights for a more informed approach.
+                    Get the most reliable insights on public figures. The platform offers detailed 
+                    stats, in-depth analysis, and clear visualizations. Discover top performers 
+                    in any category and get AI-driven recommendations for efficient platform utilization. 
+                    <br /><br />
+                    Stay ahead with real-time updates and comprehensive reports. Utilize advanced filters 
+                    to refine your search and get precise results. Whether you're an analyst, researcher, 
+                    or enthusiast, CrediRank provides the tools you need to make data-driven decisions. 
+                    Enhance your experience by exploring trending topics, identifying key influencers, 
+                    and leveraging AI-powered insights for a more informed approach.
                     </p>
                 </div>
             </div>
