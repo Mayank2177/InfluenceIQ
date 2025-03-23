@@ -1,14 +1,12 @@
 import React, { useState } from "react";
 import "./FilterPanel.css";
 
-import Nav from "./Nav";
 
 const FilterPanel = () => {
   const [popularity, setPopularity] = useState([1, 10]);
 
   return (
     <>
-    <Nav />
     <div className="filter-container">
       <h1>Explore the public figure rankings</h1>
       <p>Discover top individuals based on your criteria</p>
