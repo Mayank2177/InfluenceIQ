@@ -1,0 +1,42 @@
+.container2 {
+    font-family: Arial, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.container2 form{
+    margin-bottom: 20px;
+}
+
+.container2 input {
+    /* width: 80%; */
+    padding: 15px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.container2 button {
+    background-color: blue;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.crad-para{
+    padding: 20px;
+}
+
+.credibility-button {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

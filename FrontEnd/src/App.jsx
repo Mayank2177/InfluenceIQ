@@ -14,6 +14,7 @@ import EngagementChart from './components/EngagementChart'
 import Profile from './components/UserProfile'
 import Admin from './components/AdminPanel'
 import Credibility from './components/Credibility'
+import Template from './components/Template';
 
 import Signup from './components/Signup';
 import Login from './components/Login';
@@ -37,7 +38,7 @@ requestAnimationFrame(raf);
 
   return (
     <>
-      <Landing />
+      <Template />
     </>
   )
 }
