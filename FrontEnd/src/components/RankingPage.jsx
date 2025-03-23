@@ -28,8 +28,8 @@ const Ranking = () =>{
 
     return(
         <>
+            <Nav />
             <div className="container r-con">
-                <Nav />
                 <div className="ranking-container">
                     <h1>Top Public Figures </h1>
                     <p>A cutting-edge Al ranking system evaluating public figures on influence, engagement, and popularity metrics</p>
