@@ -37,7 +37,7 @@ requestAnimationFrame(raf);
 
   return (
     <>
-      <Landing />
+      <Signup />
     </>
   )
 }

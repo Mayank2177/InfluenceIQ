@@ -1,10 +1,11 @@
 import React, {useState} from "react";
 import "./Signup.css"
 
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { app } from "../firebase";
 
 const auth = getAuth(app)
+const googleProvider = new GoogleAuthProvider()
 
 const Signup = ()=>{
 
@@ -19,6 +20,10 @@ const Signup = ()=>{
           .catch((error) => {
             alert("Error: " + error.message);
           })
+    }
+
+    const signinWithGoogle = () =>{
+        signInWithPopup(auth, googleProvider)
     }
 
     return(
@@ -37,6 +42,8 @@ const Signup = ()=>{
                     <label>Password</label>
                     <input onChange={(e)=> setPassword(e.target.value)} value={password} placeholder="Enter your email" required type="password"></input>
                     <button onClick={createUser}>Submit</button>
+                    <br />
+                    <button onClick={signinWithGoogle}>Sign-up with google</button>
                 </form>
             </div>
         </>
