@@ -89,7 +89,6 @@ const Landing = () => {
                         </button>
                     </div>
                 </div>
-                <hr />
                 <div class="feedback">
                     <div class="container__left">
                         <h1>See What Our Users Think About Us!</h1>
@@ -137,7 +136,6 @@ const Landing = () => {
                     </div>
                     </div>
                 </div>
-                <hr />
                 <footer>
                     <div class="footerContainer">
                         <div class="socialIcons">

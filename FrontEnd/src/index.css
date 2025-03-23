@@ -18,14 +18,18 @@ body, html{
 /* NAV START  */
 
 .nav{
+    position: fixed;
     width: 100%;
     padding: 10px;
-    background-color: #565656;
+    background: rgba(15, 15, 15, 0.6); /* Semi-transparent background */
+    backdrop-filter: blur(12px); /* Blur effect */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
     color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .nav .nav-links {
     width: 30%;
@@ -50,6 +54,10 @@ body, html{
     color: #fff;
 }
 
+.nav ul li a:hover {
+    color: #a294f9; /* Soft hover effect */
+  }
+  
 .nav-links .nav-btn{
     padding: 7px 15px;
     background-color: #2d2d2d;
@@ -146,6 +154,7 @@ body, html{
 .influence-content{
     width: 100%;
     padding-top: 40px;
+    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -232,6 +241,7 @@ body, html{
 
 .workings{
     width: 100%;
+    background-color: #fffaec;
     padding-top: 4%;
     display: flex;
     flex-direction: column;
@@ -242,7 +252,7 @@ body, html{
 
 .workings h1{
     font-size: 4rem;
-    color: #fff;
+    color: #000000;
 }
 
 .w-card{
@@ -252,7 +262,7 @@ body, html{
 .w-cards{
     width: 70%;
     padding: 20px;
-    background-color: #161616;
+    background-color: #808080;
     color: white;
     display: flex;
     flex-direction: column;
@@ -266,11 +276,13 @@ body, html{
 .w-cards h1{
     font-size: 2rem;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 .w-cards p{
     font-size: 1.4rem;
     width: 70%;
+    color: #434343;
 }
 
 /* WORKING PAGE END  */
