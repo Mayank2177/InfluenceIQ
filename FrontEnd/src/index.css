@@ -134,10 +134,15 @@ body, html{
     border-radius: 10px;
     border: none;
     font-size: 1.3rem;
-
+    transition: all 0.3s ease;
     position: absolute;
     right: 9px;
     bottom: 12px;
+}
+
+.searchbar form button:hover{
+    background-color: rgb(0, 0, 123);
+    color: #fff;   
 }
 
 .searchbar form img{
@@ -177,8 +182,16 @@ body, html{
     width: 20%;
     padding: 15px;
     border-radius: 10px;
+    border: none;
     background-color: rgb(90, 90, 231);
     font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.influence-content button:hover{
+    background-color: rgb(0, 0, 123);
+    color: #fff;
+
 }
 
 /* INFLUENCE CONTENT END  */
@@ -222,7 +235,12 @@ body, html{
     align-items: center;
     text-align: center;
     border: 2px solid #fff;
+    transition: all 0.3s ease;
     border-radius: 20px;
+}
+
+.f-cards:hover{
+    background-color: #303030;
 }
 
 .f-cards h1{
@@ -383,98 +401,6 @@ body, html{
 
 /* EXPLANATION PAGE END  */
 
-/* FEEDBACK SECTION START  */
-
-:root {
-    --primary-color: #ffffff;
-    --primary-color-dark: #b0b0b0;
-    --text-dark: #bababa;
-    --white: #ffffff;
-}
-
-.feedback {
-    max-width: 1200px;
-    margin: auto;
-    padding: 1rem;
-    padding-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
-    color: #fff;
-}
-  
-.container__left h1 {
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
-    font-weight: 500;
-    color: var(--primary-color);
-}
-  
-.container__left p {
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-}
-  
-.container__left button {
-    padding: 1rem 2rem;
-    margin-top: 1rem;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(90, 90, 231);
-    color: var(--white);
-    font-size: 1rem;
-    cursor: pointer;
-}
-  
-.container__right {
-    display: grid;
-    gap: 2rem;
-}
-  
-.card {
-    padding: 2rem;
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
-    background-image: url(./assets/dark-bg.avif);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1rem;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-}
-  
-.card img {
-    max-width: 75px;
-    border-radius: 100%;
-}
-  
-.card__content {
-    display: flex;
-    gap: 1rem;
-}
-  
-.card__content span i {
-    font-size: 2rem;
-    color: var(--primary-color);
-}
-  
-.card__details p {
-    font-style: italic;
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-}
-  
-.card__details h4 {
-    text-align: right;
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-/* FEEDBACK END  */
 
 /* FOOTER START  */
 
